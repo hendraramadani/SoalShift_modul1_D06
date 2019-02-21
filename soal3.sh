@@ -7,8 +7,6 @@ while [[ -e "$name""$i".txt ]] ; do
   if [ "$line" = "$PASSWORD" ]
   then
   PASSWORD=$(< /dev/urandom tr -dc A-Za-z0-9 |head -c 12 )
-  #PASSWORD=$(echo "ganti pwd")
-  #echo $PASSWORD
   fi
  done < logpwd.txt
  let i++
