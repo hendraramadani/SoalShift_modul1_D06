@@ -120,3 +120,17 @@
    (c) Masukkan record tadi ke dalam file logs yang berada pada direktori /home/[user]/modul1.
    
    (d) Jalankan script tadi setiap 6 menit dari menit ke 2 hingga 30, contoh 13:02, 13:08, 13:14, dst.
+   
+   ### Source Code :
+
+   [Source Code](/soal5.sh)
+
+   ### Jawab :
+   
+   kita dapat menggunakan beberapa matching control dari command grep berikut ini:
+   
+      a. -v untuk memilih baris yang tidak cocok dengan parameter yang dimasukkan
+      
+      b. -n untuk memberikan nomor baris berbasis 1 pada file inputnya
+      
+      c. -i untuk menabaikan besar-kecilnya huruf
