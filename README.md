@@ -109,7 +109,7 @@
    2. Proses Decrypt :
        a. gunakan data jam yang terdapat pada nama file untuk patokan dalam deskripsi
        
-       b. lakukan proses decry
+       b. lakukan proses decrypt
 
 5. Buatlah sebuah script bash untuk menyimpan record dalam syslog yang memenuhi kriteria berikut:
        
